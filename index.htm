@@ -1,0 +1,423 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+<title>Polaris New Employee/Contractor Onboarding Portal</title>
+
+
+<link href="styles/smart_tab.css" rel="stylesheet" type="text/css"/>
+<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.smartTab.min.js"></script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Smart Tab
+        $('#tabs').smartTab({ autoProgress: false, stopOnFocus: true, transitionEffect: 'hSlide' });
+    });
+
+    function showST(tab_index) {
+        $('#tabs').smartTab('showTab', tab_index);
+    }    
+</script>
+
+
+ 
+
+</head>
+<body>
+
+<table align="center" border="0" cellpadding="5" cellspacing="5" >
+<tr>
+  <td valign="top">
+  <form action="/">
+    <table border= "0" width="100%" cellpadding="5" cellspacing="10">
+        <tr>
+            <td><h1>Polaris New Employee/Contractor Onboarding Portal</h1> </td>
+            <td><img src="images/Polaris-Logo.png" alt="Polaris Logo" align="right" width="110px" /></td>
+        </tr>
+        </table>
+   
+   <!-- External Anchors: 
+    <a class="stLinks" onclick="showST(0);" href="#">Show Tab 1</a>
+    <a class="stLinks" onclick="showST(1);" href="#">Show Tab 2</a>
+    <a class="stLinks" onclick="showST(2);" href="#">Show Tab 3</a>
+    <a class="stLinks" onclick="showST(3);" href="#">Show Tab 4</a>
+    <br /><br />-->
+    
+<!-- Tabs -->
+  		<div id="tabs">
+  			<ul>
+  				<li><a href="#tabs-1">Mandatory <br />Procedures
+               <!-- <small>This is tab's description</small>-->
+            </a></li>
+  				<li><a href="#tabs-2">Situational <br />Procedures
+               <!-- <small>This is tab's description</small>-->
+            </a></li>
+  				<li><a href="#tabs-3">House Keeping <br />Procedures
+                <!--<small>This is tab's description</small>-->
+             </a></li>
+  				<li><a href="#tabs-4">Offboarding <br />Procedures
+               <!-- <small>This is tab's description</small>-->
+            </a></li>
+  			</ul>
+  			<div id="tabs-1">
+            <h2>Mandatory Procedures </h2> <img src="images/Mandatory_checklist.jpg" title="Mandatory Checklist" alt="Mandatory Checklist" align="right" />	
+            <p>The following steps must be completed for every New Hire regardless of their position and if they are an employee of OCCM or a contractor. </p>
+          
+                    
+                     <table id="mand">
+                        <tr>
+                            <th>No.</th>
+                            <th>Task</th>
+                            <th>POC/Comments</th>
+                            <th><!--Date--> Completed</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>Submit a requisition for a New Hire in Cornerstone and notify IT, HR, and Finance</td>
+                            <td>Contact and notify Antoine Alexander(IT), Tom Schaeffer(HR), and Tim Goodman(Finance). </td>
+                            <td><label><input type="checkbox" id="proc1" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Notify the front desk when you schedule an in-person interview.</td>
+                            <td>Contact Sabrina Clark, this is so she is aware you are expecting a visitor to sign-in at the front desk.
+                            <p><b>Note:</b> You only need to notify Sabrina about in person interviews. </p>
+</td>
+                            <td><label><input type="checkbox" id="proc2" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Contact IT, HR, Finance, and the Front Desk once you establish the start date for the New Hire</td>
+                            <td>Contact Antoine Alexander(IT), Tom Schaeffer (HR), Tim Goodman (Finance), and Sabrina Clark (Front Desk).</td>
+                            <td><label><input type="checkbox" id="proc3" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Request a PC, Desk Phone, and OCCM Domain Account</td>
+                            <td>Use this link to access the form <a href="https://oneit.service-now.com/sp?id=sc_cat_item&sys_id=770ee86e4fa2ea00c4db5f388310c741">click here</a> Or you can reach the form manually. Follow this path;
+                                OneIT Homepage > Service Catalogue >OnBoarding Services > Information Technology</td>
+                            <td><label><input type="checkbox" id="proc4" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Setup New Hire in Innotas</td>
+                            <td>Fill out the required form, once complete send the email but cc Scott Saxon. </td>
+                            <td><label><input type="checkbox" id="proc5" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Add New Hire to the Polaris_Project and Polaris_IT Team email list</td>
+                            <td>Contact Brent Bodiford (<a href="mailto:brent_bodiford@onecallcm.com">brent_bodiford@onecallcm.com</a>) to add the New Hire to the Polaris_Project distribution list and to add the New Hire to the Polaris IT Team distribution list</td>
+                            <td><label><input type="checkbox" id="proc6" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Add New Hire to the Polaris IT Org Chart Data</td>
+                            <td>POC/Comments</td>
+                            <td><label><input type="checkbox" id="proc7" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Request Sharepoint Access</td>
+                            <td>Contact Jason Williams. Either yourself or the New Hire can provide Jason his/her full name and the level of access that is required. Contact Jason within the New Hire’s first week at work</td>
+                            <td><label><input type="checkbox" id="proc8" /></label></td>
+                        </tr>
+                         <tr>
+                            <td>9.</td>
+                            <td>Request TFS Access</td>
+                            <td>POC/Comments</td>
+                            <td><label><input type="checkbox" id="proc9" /></label></td>
+                        </tr>
+
+                    </table>
+                    
+                    
+                   <p align="center"><button type="submit" value="Submit">Submit</button></p>
+
+ 
+
+                   
+                   
+            
+            <p><b>Employee Self-Service</b><br />
+             New hires can enter their own information into the onboarding software before their first day. </p>
+
+            <p><b>Compliance Documentation</b><br />
+             Federal and State compliance forms, like a W-4, are completed and then reviewed by the administrator electronically. </p>
+
+            <p><b>Company Documents</b><br />
+             Upload important company documents and policies, such as an employee handbook or a social media policy, for new employees to review online. </p>
+
+            <p><b>Electronic Acknowledgement</b><br />
+             Reduce compliance risks by tracking which new hires have read and acknowledged company information. 
+             laborum.
+            </p>
+
+
+            <!--
+        		<ul>
+      				<li>list 1</li>
+      				<li>list 2</li>            			
+      				<li>list 3</li>
+      				<li>list 4</li>                                        
+            </ul>            
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>          			
+            -->
+        </div>
+
+
+         <!--Situational Procedures-->  
+  			<div id="tabs-2">           
+           <h2>Situational Procedures</h2>
+            <p><img src="images/Situational.jpg" title="Situational Procedures" alt="Situational Procedures" style="margin-right:15px"; align="right" />The following procedures are contingent on the type of hire and may not always need to be completed. Please check and enter date completed.</p>
+          
+           <table id="situation">
+                        <tr>
+                            <th>No.</th>
+                            <th>Task</th>
+                            <th>Contact/Comments</th>
+                            <th>Situation</th>
+                            <th><!--Date--> Completed</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>Review Cornerstone</td>
+                            <td>Reach out to the New Hire and ask if HR contacted them about having their time sheet set up. HR usually has this set this up about three days into their first week.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox9" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Fill out Off Boarding Form</td>
+                            <td>Review Cornerstone to ensure the New Hire is set up correctly as a part of your team.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox10" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Ensure desk is clean</td>
+                            <td>Ensure desk is clean prior to New Hire’s start date.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox11" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Set up printer</td>
+                            <td>Ensure the appropriate print drivers are installed and that the New Hire can print (Print Service Setup). Try to do this prior to the New Hire’s first day.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox12" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>OCCM Orientation</td>
+                            <td>Ensure the OCCM Orientation is scheduled</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox13" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Employee Expectations</td>
+                            <td>Review Employee Expectations</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox14" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Self-Service Set up</td>
+                            <td>Share with the New Hire the OCCM Self-Service Document. This is for unlocking their account and resetting their password.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox15" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Provide Starter Supplies</td>
+                            <td>Contact Sabrina Clark at the front desk with a list of starter supplies the New Hire will need. This does not include technical hardware.</td>
+                            <td></td>
+                            <td><label><input type="checkbox" id="Checkbox16" /></label></td>
+                        </tr>
+                         
+
+                    </table>
+                    
+                    
+                   <p align="center"><button type="submit" value="Submit">Submit</button></p>
+
+
+        </div>                      
+  			 <!--House Keeping Procedures-->             
+  			<div id="tabs-3">
+            <h2>House Keeping Procedures</h2><img src="images/Housekeeping.png" title="Housekeeping" alt="Housekeeping" width="275" align="right" />	
+            <p>The following steps must be completed for every New Hire regardless of their position and if they are an employee of OCCM or a contractor. Please check and enter date completed.</p>
+          
+           <table id="housekeep">
+                        <tr>
+                            <th>No.</th>
+                            <th>Task</th>
+                            <th>Contact/Comments</th>
+                            <th><!--Date--> Completed</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>Review Cornerstone</td>
+                            <td>Reach out to the New Hire and ask if HR contacted them about having their time sheet set up. HR usually has this set this up about three days into their first week.</td>
+                            <td><label><input type="checkbox" id="Checkbox1" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Fill out Off Boarding Form</td>
+                            <td>Review Cornerstone to ensure the New Hire is set up correctly as a part of your team.</td>
+                            <td><label><input type="checkbox" id="Checkbox2" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Ensure desk is clean</td>
+                            <td>Ensure desk is clean prior to New Hire’s start date.</td>
+                            <td><label><input type="checkbox" id="Checkbox3" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Set up printer</td>
+                            <td>Ensure the appropriate print drivers are installed and that the New Hire can print (Print Service Setup). Try to do this prior to the New Hire’s first day.</td>
+                            <td><label><input type="checkbox" id="Checkbox4" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>OCCM Orientation</td>
+                            <td>Ensure the OCCM Orientation is scheduled</td>
+                            <td><label><input type="checkbox" id="Checkbox5" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Employee Expectations</td>
+                            <td>Review Employee Expectations</td>
+                            <td><label><input type="checkbox" id="Checkbox6" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Self-Service Set up</td>
+                            <td>Share with the New Hire the OCCM Self-Service Document. This is for unlocking their account and resetting their password.</td>
+                            <td><label><input type="checkbox" id="Checkbox7" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Provide Starter Supplies</td>
+                            <td>Contact Sabrina Clark at the front desk with a list of starter supplies the New Hire will need. This does not include technical hardware.</td>
+                            <td><label><input type="checkbox" id="Checkbox8" /></label></td>
+                        </tr>
+                         
+
+                    </table>
+                    
+                    
+                   <p align="center"><button type="submit" value="Submit">Submit</button></p>
+
+
+
+        </div>
+
+
+  			 <!--Offboarding Procedures-->
+  			<div id="tabs-4">
+            <h2>Offboarding Procedures</h2>	<img src="images/Checklist1.jpg" title="Offboarding Checklist" alt="Offboarding Checklist" height="215px" align="right" />
+            <p></p>
+
+            <table id="offboard">
+                        <tr>
+                            <th>No.</th>
+                            <th>Task</th>
+                            <th>Contact/Comments</th>
+                            <th><!--Date--> Completed</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>Contact HR</td>
+                            <td>Jacksonville, FL Baymeadows contact Jessica Siefert and Christy Turner for Downtown. If individual is FTE provide Jessica or Christy the resignation letter. If it is a contractor notify HR asap when you expect them to be off boarded. Let HR know if they are eligible for re-hire.</td>
+                            <td><label><input type="checkbox" id="offboard1" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Fill out Off Boarding Form</td>
+                            <td>Navigate to Service-Now and submit a completed off-boarding form. The form can be accessed here. Note: You must be logged into ServiceNow </td>
+                            <td><label><input type="checkbox" id="offboard2" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Return HardWare</td>
+                            <td>This includes mobile phones, conferencing equipment, laptops, computer equipment, and any equipment owned by OCCM. Return to the on-sight Help Desk crew. Baymeadows = Antoine Alexander Downtown = </td>
+                            <td><label><input type="checkbox" id="offboard3" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>Return Badges</td>
+                            <td>Return ALL badges to Sabrina Clark (including an evening badge). If Sabrina is not available return the badge to Jessica Siefert. </td>
+                            <td><label><input type="checkbox" id="offboard4" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>Return Alarm Codes</td>
+                            <td> If your employee was given an individual alarm code for any of the suites you must notify Sabrina Clark and provide her the unique alarm code.</td>
+                            <td><label><input type="checkbox" id="offboard5" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>6.</td>
+                            <td>Remove from Distribution Lists</td>
+                            <td>Contact Brent Bodiford to have employee removed from all Polaris email distribution lists. If employee was part of IT leadership contact Scott Saxon to remove him or her from the leadership distribution list.</td>
+                            <td><label><input type="checkbox" id="offboard6" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Remove PluralSight License</td>
+                            <td>Contact Brent Bodiford to remove any licenses associated to the employee. Usually only for Full Time Employees. </td>
+                            <td><label><input type="checkbox" id="offboard7" /></label></td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Remove SharePoint access</td>
+                            <td>Contact Jason Williams and ensure the employee is removed from access into the Polaris SharePoint site.</td>
+                            <td><label><input type="checkbox" id="offboard8" /></label></td>
+                        </tr>
+                         <tr>
+                            <td>9.</td>
+                            <td>Remove VSTS access</td>
+                            <td>Contact John Downs and ensure the employee is removed from access to visual studio team services.</td>
+                            <td><label><input type="checkbox" id="offboard9" /></label></td>
+                        </tr>
+                         <tr>
+                            <td>10.</td>
+                            <td>Remove from IT Org Chart</td>
+                            <td>Follow the link here. Remove the employee from your department’s tab. Please do not change the sheet labeled total.</td>
+                            <td><label><input type="checkbox" id="offboard10" /></label></td>
+                        </tr>
+
+                    </table>
+                    
+                    
+                   <p align="center"><button type="submit" value="Submit">Submit</button></p>
+
+                         			
+        </div>
+  	</div> 
+
+    <!--<p align="center"><button type="submit" value="Submit">Submit</button></p>-->
+    </form> 	
+  </td>
+</tr>
+</table>  		
+
+
+
+</body>
+</html>
